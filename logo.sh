@@ -13,7 +13,7 @@ pkg install ncurses-utils -y
 pkg install ruby -y 
 gem install lolcat 
 figlet -f big WoW | lolcat
-git clone https://github.com/James404-cyber/Termux.git
+git clone https://github.com/matin-1879/Termux.git
 sed 's+CODEBAZ+'$user'+g' Termux/bash.bashrc > /data/data/com.termux/files/usr/etc/bash.bashrc
 sed 's+CODEBAZ+'$user'+g' Termux/logo.py > /data/data/com.termux/files/usr/etc/logo.py
 rm -rf Termux
